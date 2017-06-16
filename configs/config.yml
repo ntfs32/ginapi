@@ -1,0 +1,12 @@
+# 配置文件
+
+
+# kafka配置
+kafka:
+  broker: kafka.gz.baidubce.com:9092
+  enableTLS: true
+  clientPemPath: configs/kafka/client.pem
+  clientKeyPath: configs/kafka/client.key
+  caPemPath:  configs/kafka/ca.pem
+
+time: as
